@@ -17,6 +17,7 @@ public class ExemploGetComponent : MonoBehaviour
         }
         else
         {
+
             print("Não há luz acoplada no componente");
         }
         Invoke("ContinuarDepoisDeCincoSegundos", 5f);
